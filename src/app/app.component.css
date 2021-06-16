@@ -1,0 +1,83 @@
+.bgv {
+  background-image: url("/recruitment-fe-assignment-main/assets/background.jpg");
+}
+
+:host /deep/ div.merchant-details {
+  display: inline-block;
+}
+
+:host /deep/ button.btn-primary{
+  background-color:orange;
+}
+
+.btn-transfer{
+  background-color:orange;
+  border-color: black;
+}
+
+.btn-closed{
+  border-color: black;
+}
+
+.first-cell{
+  width: 150px;
+}
+
+.second-cell{
+  width: 250px;
+}
+
+.table-block{
+  width: max-content;
+  background-color: white;
+  float: right;
+}
+
+.input-class{
+  width: 250px;
+}
+
+.positive{
+  color: green;
+}
+
+.negative{
+  color: red;
+}
+
+.form-group{
+  width: 350px;
+  background-color: white;
+  margin-left: 70px;
+}
+
+.input-symbol-euro {
+  position: relative;
+}
+.input-symbol-euro input {
+  padding-left:18px;
+}
+.input-symbol-euro:before {
+  position: absolute;
+  top: 0;
+  content:"€";
+  left: 5px;
+}
+
+.red-border-class{
+  border: 1px solid red;
+}
+
+.title{
+  background-color: blue;
+  color: #fff;
+  padding: 12px 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin: 0;
+}
+
+.tr-class{
+  border-bottom: groove 1px;
+  padding-top: 44px;
+}
